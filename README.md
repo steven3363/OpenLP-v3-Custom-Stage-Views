@@ -14,8 +14,6 @@ EG: If you want to view the lower third you would point to the following link.
   http://{yourremote}:4316/stage/LowerThird
   
 
-Check out these videos for detailed installation. 
-
 OBS web sockets is not working at the moment. Updates to come.
 
 Chords and video backgrounds are part of v3 so they have been removed
