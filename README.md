@@ -1,1 +1,1 @@
-# OpenLP-2.92-AKAV3-Beta---Custom-Stage-Views
+# OpenLP-2.92-AKAV3-Beta-Custom-Stage-Views
