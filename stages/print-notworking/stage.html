@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><!--
+###############################################################################
+# OpenLP - Open Source Lyrics Projection                                      #
+# --------------------------------------------------------------------------- #
+# Copyright (c) 2008-2014 Raoul Snyman                                        #
+# Portions copyright (c) 2008-2014 Tim Bentley, Gerald Britton, Jonathan      #
+# Corwin, Samuel Findlay, Michael Gorven, Scott Guerrieri, Matthias Hub,      #
+# Meinert Jordan, Armin Köhler, Erik Lundin, Edwin Lunando, Brian T. Meyer.   #
+# Joshua Miller, Stevan Pettit, Andreas Preikschat, Mattias Põldaru,          #
+# Christian Richter, Philip Ridout, Simon Scudder, Jeffrey Smith,             #
+# Maikel Stuivenberg, Martin Thompson, Jon Tibble, Dave Warnock,              #
+# Frode Woldsund, Martin Zibricky                                             #
+# Added chord formating: Tomas                                                #
+# --------------------------------------------------------------------------- #
+# This program is free software; you can redistribute it and/or modify it     #
+# under the terms of the GNU General Public License as published by the Free  #
+# Software Foundation; version 2 of the License.                              #
+#                                                                             #
+# This program is distributed in the hope that it will be useful, but WITHOUT #
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or       #
+# FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for    #
+# more details.                                                               #
+#                                                                             #
+# You should have received a copy of the GNU General Public License along     #
+# with this program; if not, write to the Free Software Foundation, Inc., 59  #
+# Temple Place, Suite 330, Boston, MA 02111-1307 USA                          #
+###############################################################################
+-->
+<head>
+  <meta charset="utf-8" />
+  <title>${stage_title}</title>
+  <link rel="stylesheet" href="../java/stage.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../java/images/favicon.ico">
+  <script type="text/javascript" src="../java/jquery.min.js"></script>
+  <style>
+  body { background-color: white; overflow: scroll;}
+  #currentslide,  #nextslide { color: black; }
+  #verseorder, #clock { visibility:hidden; }
+  #songtitle { font-size:40px; text-decoration:underline; }
+  .chordline { line-height:2.0 }
+  .chordline1 { line-height:1.0 }
+    .chordline span.chord span { position:relative; }
+    .chordline span.chord span strong { position:absolute; top:-1em; left:0; font:bold 75%/1 sans-serif; color:black;}
+    .chordline span.chord span strong span {display:none;}
+  .nextslide .chordline span.chord span strong { color:black; }
+  #chords{ background-color:gray; color:white; cursor:pointer; }
+  #plus, #minus{ display: inline-block; width: 15px; line-height: 15px; vertical-align: middle; color: white; background-color:gray; font-size: 75%; text-align:center; cursor:pointer; }
+  @media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+  }
+  #controls { display:none; }
+  </style>
+</head>
+<body>
+<input type="hidden" id="next-text" value="${next}" />
+<div id="right">
+  <div id="clock"></div>
+  <div id="notes"></div>
+  <div id="controls">
+  <div id="chords" class="no-print">chords on/off</div>
+  <div class="no-print">font size:</div>
+  <div id="plus" class="no-print">+</div>
+  <div id="minus" class="no-print">-</div>
+  </div>
+
+</div>
+<div id="songtitle"></div>
+<div id="verseorder"></div>
+<div id="currentslide"></div>
+<div id="nextslide"></div>
+<script type="text/javascript" src="../java/stage.js"></script>
+</body>
+</html>

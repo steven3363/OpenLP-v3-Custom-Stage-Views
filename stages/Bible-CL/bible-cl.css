@@ -1,0 +1,64 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+To create a simple transparent stage view. 
+ 
+
+*/
+
+body {
+/* Font usage - you can use any font installed in your system or configured in the OpenLP fonts folder. 
+	by default the following 
+  	font-family: Aleo-Bold;
+ */ 
+  
+}
+
+#songtitle { 
+
+	/* Global settings you can copy and change.
+  	text-decoration:underline; 
+	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+    	*/
+    	
+	font-size:1.25vw; 
+	position: absolute;
+	bottom: 24%;
+  	padding: 0.5%;
+  	text-align: left;
+  	
+  	
+}
+
+#currentslide {
+  
+  position: absolute;
+  bottom: 2%;
+  height: 21%;
+  width: 96%;
+  
+  /*Change the font size here leave the vw as it makes it propotional. Make minor changes*/
+  font-size: 1.9vw;
+  
+/* Global Settings copy and change if you like
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px #000000;
+  
+ */
+  
+  padding: 0.5%;
+  text-align: center; 
+    
+}
+
+#nextslide {
+
+	visibility: colapse; 
+	display: none
+}
+
+
+
+
+

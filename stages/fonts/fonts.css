@@ -1,0 +1,131 @@
+/* 
+This is the global setup for the custom stage views, to overide these settings edit each pages css. 
+*/
+body {
+  background-color:transparent;
+  /* Font usage - you can use any font installed in your system or configured in the OpenLP fonts folder. 
+	*/  
+  
+  font-family: kingthings-clarity;
+  
+}
+#songtitle { 
+	text-decoration:underline; 
+	color: white;
+  	text-shadow: 2px 2px 2px grey;
+    	
+  	
+}
+#currentslide {
+  
+  /* Change the colour here for the fill colour. can be most basic colours or use rgb
+  	eg. black = #000000
+  */
+  color: white;
+  
+  /*Shadow type
+  Standard Sharp Shadow
+	text-shadow: 2px 2px grey;  
+  Standard Shadow blur
+  	text-shadow: 2px 2px 4px grey;
+  /*Standard Shadow - with black outline - uncomment to use 
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+  check : https://www.w3schools.com/css/css3_shadows.asp
+  for more examples
+  */
+  
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+ 
+   
+}
+
+
+
+/* This loads the fonts to be used in the custom stage views.
+
+
+
+	For each font you want to use create make a new
+	
+	
+	@font-face {
+		font-family: myFirstFont;
+		src: url(sansation_bold.woff);
+  		font-weight: bold; //optional
+	}  	  	
+  	
+  	make sure you copy the font you want to use to the font folder in your OpenLP stages data directory
+  	See for more options like adding bold italic etc
+  	https://www.w3schools.com/css/css3_fonts.asp
+
+*/
+
+
+
+
+@font-face {
+		font-family: Aleo-Bold;
+		src: url(Aleo-Bold.otf);
+  		font-weight: bold; 
+	}  
+	
+@font-face {
+		font-family: Aleo-BoldItalic;
+		src: url(Aleo-BoldItalic.otf);
+  		font-style: italic;
+  		font-weight: bold; 
+	}  
+	
+@font-face {
+		font-family: Aleo-Italic;
+		src: url(Aleo-Italic.otf);
+  		font-style: italic;
+	} 
+
+@font-face {
+		font-family: Aleo-Light;
+		src: url(Aleo-Light.otf);
+  		
+	} 	
+	
+@font-face {
+		font-family: Aleo-LightItalic;
+		src: url(Aleo-LightItalic.otf);
+		font-style: italic;
+  		
+	} 
+	
+@font-face {
+		font-family: Aleo;
+		src: url(Aleo-Regular.otf);
+  		
+	} 
+	
+@font-face {
+		font-family: Antonio-Bold;
+		src: url(Antonio-Bold.ttf);
+		font-weight: bold; 
+  		
+	} 
+	
+@font-face {
+		font-family: Antonio-Light;
+		src: url(Antonio-Light.ttf);
+		  		
+	} 
+
+@font-face {
+		font-family: Antonio-Regular;
+		src: url(Antonio-Regular.ttf);
+	}		  		
+
+
+@font-face {
+		font-family: kingthings-clarity;
+		src: url(kingthings-clarity.kingthings-clarity.ttf);
+	}			
+	
+
+		  
+
+
