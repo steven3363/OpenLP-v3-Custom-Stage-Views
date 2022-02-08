@@ -1,5 +1,5 @@
 # OpenLP-2.94-AKA V3-RC1-Custom-Stage-Views
-A collection of Custom Stage views for OpenLP 2.92 AKA v3 Beta
+A collection of Custom Stage views for OpenLP 2.94 AKA v3 RC1
 
 # Installation instructions
 
