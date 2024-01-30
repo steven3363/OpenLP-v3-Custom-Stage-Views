@@ -17,7 +17,7 @@ EG: If you want to view the lower third you would point to the following link.
   
 
 OBS web sockets is not working at the moment. Updates to come.
-Update: I have modified the stage views so that OBS remote is not required - Each stage view will check and see the type matches and OPenLP is live. This means you can create one scene on OBS with your choice od view for Bibles or Songs and Esch stage view will dynamically hide themselves depending on what OpenLP is currently displaying.
+Update: I have modified the stage views so that OBS remote is not required - Each stage view will check and see the type matches and OpenLP is live. This means you can create one scene on OBS with your choice of view for Bibles or Songs and Esch stage view will dynamically hide themselves depending on what OpenLP is currently displaying.
 
 
 Print song removed. 
