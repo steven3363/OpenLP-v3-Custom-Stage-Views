@@ -29,7 +29,7 @@ OBS Websockets taken from a community member here
 https://forums.openlp.org/discussion/5336/tutorial-how-to-control-obs-via-openlp-custom-stage-view
 
 
-Updates:
+# Updates:
 
 As of 30 January 2024 the following features of this collection
 
