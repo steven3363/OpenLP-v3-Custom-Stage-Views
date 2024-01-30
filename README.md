@@ -34,13 +34,22 @@ https://forums.openlp.org/discussion/5336/tutorial-how-to-control-obs-via-openlp
 As of 30 January 2024 the following features of this collection
 
 Bible - Left algined full page.
+
 Bible_Centre - Centres the text on the page
+
 Bible-CL - A lower third dusplay of bible verses
+
 Bible-CL-shadow - A lower Third of bible veses with a semu transparent black backround
+
 Bible-Right  - Right aligned full page bible view
+
 LowerThird - 4 line lower third - transparent background
+
 LowerThird-shadow -  A 4 line lower third with a semi transparent black background
+
 txt-OpenLPCords - A tool to convert plain text chords to CordPro format for importing into OpenLP
+
+
 
 Each stage view is ethier a bible voew or song view. They will be blank if the current slide is not the same type.
 Each stage view will only display if OpenLP is set to 'LIVE' all other modes will return a blank page.
