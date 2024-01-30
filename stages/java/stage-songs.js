@@ -93,7 +93,7 @@ window.OpenLP = { // Connect to the OpenLP Remote WebSocket to get pushed update
             OpenLP.currentItem = item;
             OpenLP.curPlugin =data[index].plugin;
 
-            if (OpenLP.curPlugin == 'bibles' && OpenLP.curStatus == 'live') {
+            if (OpenLP.curPlugin == 'songs' && OpenLP.curStatus == 'live') {
     		//hide the text if not slides
     		$("#songtitle").html(item.title);
     		} else {
@@ -148,8 +148,8 @@ window.OpenLP = { // Connect to the OpenLP Remote WebSocket to get pushed update
 
     text = text.replace(/\n/g, "<br />");
           //  confirm(curStatus);
-    if (OpenLP.curPlugin != 'bibles'|| OpenLP.curStatus != 'live') {
-    	//hide the text if not bibles
+    if (OpenLP.curPlugin != 'songs'|| OpenLP.curStatus != 'live') {
+    	//hide the text if not songs
     	text = "";
     	//set style to remove bg box
     	var element = document.querySelector("#bgslide");

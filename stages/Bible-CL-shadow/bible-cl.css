@@ -39,7 +39,7 @@ body {
   width: 96%;
   
   /*Change the font size here leave the vw as it makes it propotional. Make minor changes*/
-  font-size: 1.2vw;
+  font-size: 1.18vw;
   
 /* Global Settings copy and change if you like
   color: white;
@@ -54,6 +54,12 @@ body {
 
 .slide {
 
+  position: fixed;
+  top: 78%;
+  height: 20%;
+  width: 100%;
+ 
+  background-color: rgba(0,0,0,0.75);
   
 }
 .slideclear {

@@ -23,7 +23,7 @@ body {
   padding: 1rem;
   text-align: center;   
    /*Change the font size here leave the vw/vh as it makes it propotional. Make minor changes */
-  font-size: 5vh;
+  font-size: 7.2vh;
  
   /* Global Settings copy and change if you like
   color: white;
@@ -34,11 +34,8 @@ body {
  
 }
 
-#nextslide {
-
-	visibility: colapse; 
-	display: none
-}
+.slide {}
+.clearslide {}
 
 
 
