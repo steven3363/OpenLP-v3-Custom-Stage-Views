@@ -1,7 +1,7 @@
 # OpenLP V3 Custom-Stage-Views
 A collection of Custom Stage views for OpenLP v3
 
-Twsted with V3.1 rc4 should work with all versions of OpenLP v3
+Tested with V3.1 rc4 should work with all versions of OpenLP v3
 
 # Installation instructions
 
@@ -48,6 +48,8 @@ LowerThird - 4 line lower third - transparent background
 LowerThird-shadow -  A 4 line lower third with a semi transparent black background
 
 txt-OpenLPCords - A tool to convert plain text chords to CordPro format for importing into OpenLP
+
+
 
 
 
