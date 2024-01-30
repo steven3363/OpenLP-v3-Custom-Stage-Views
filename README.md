@@ -37,7 +37,7 @@ Bible - Left algined full page.
 
 Bible_Centre - Centres the text on the page
 
-Bible-CL - A lower third dusplay of bible verses
+Bible-CL - A lower third of bible verses
 
 Bible-CL-shadow - A lower Third of bible veses with a semu transparent black backround
 
