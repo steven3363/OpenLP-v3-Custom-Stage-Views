@@ -1,0 +1,82 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+To create a simple transparent stage view. 
+ 
+
+*/
+
+body {
+/* Font usage - you can use any font installed in your system or configured in the OpenLP fonts folder. 
+	by default the following 
+  	font-family: Aleo-Bold;
+ */ 
+  
+}
+
+#songtitle { 
+
+	/* Global settings you can copy and change.
+  	text-decoration:underline; 
+	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+    	*/
+    	
+	font-size:1.15vw; 
+	position: fixed;
+	top: 77%;
+	left: 16.5%;
+  	padding: 0.5%;
+  	text-align: left;
+  	
+  	
+}
+
+#currentslide {
+  
+  position: fixed;
+  top: 81.4%;
+  left: 17%;
+  height: 20%;
+  width: 72%;
+  
+  /*Change the font size here leave the vw as it makes it propotional. Make minor changes*/
+  font-size: 1vw;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white, 2px 2px 4px #ffffff;
+  
+  
+/* Global Settings copy and change if you like
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px #000000;
+  
+ */
+  
+  padding: 0.5%;
+  text-align: center; 
+    
+}
+
+.slide {
+
+  position: fixed;
+  top: 73.9%;
+  height: 27%;
+  width: 95%;
+ 
+  /* background-color: rgba(0,0,0,0.75); */
+  background-image: url("Bible-LowerThird-2.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 100%; 
+  
+}
+.slideclear {
+
+/*no style*/  
+
+ 
+}
+
+
+
+
