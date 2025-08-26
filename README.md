@@ -1,7 +1,8 @@
 # OpenLP V3 Custom-Stage-Views
 A collection of Custom Stage views for OpenLP v3
 
-Tested with V3.1 rc4 should work with all versions of OpenLP v3
+Tested with V3.1.6 linux should work with all versions of OpenLP v3 and with OBS 31.1.2 linux
+#have had comments on Mac that the stage view flases in OBS. 
 
 # Installation instructions
 
