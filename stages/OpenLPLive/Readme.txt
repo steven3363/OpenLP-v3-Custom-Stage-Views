@@ -1,0 +1,1 @@
+A new super file, this stage view is all the stage views in one simply run the python themechange.sh (linux) or themechange.bat (windowa - not tested) set the themes you want and update - use as you would before. The advantage is that only one browser souce is needed.
