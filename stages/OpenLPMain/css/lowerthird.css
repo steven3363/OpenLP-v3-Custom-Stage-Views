@@ -1,0 +1,38 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+To create a simple transparent stage view. 
+ 
+
+*/
+
+
+
+.lowerthirdcurrentslide {
+  
+  
+  position: fixed; 
+  top: 70%; 
+  height: 30%; 
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px #000000;
+  text-align: center;   
+   /*Change the font size here leave the vw/vh as it makes it propotional. Make minor changes */
+  font-size: 3.5vh;
+ 
+  
+  
+  
+ 
+ 
+ 
+}
+
+
+
+
+
+
+
