@@ -1,0 +1,63 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+This view is for the bible right-third 
+ 
+
+*/
+
+
+
+.bible-rightsongtitle { 
+	
+	width: 100%;           /* Inner div takes full width of the outer div */
+        box-sizing: border-box; /* Include padding and border in width */
+	font-size:1.1vw; 
+	text-decoration:underline; 
+	padding: 0.5%;
+	text-align: right;
+	
+	
+  	text-decoration:underline; 
+	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+    	
+  	
+  	
+  	
+}
+
+.bible-rightcurrentslide {
+  
+ 
+  
+ 
+ /*Change the font size here leave the vw/vh as it makes it propotional. Make minor changes 2.4.vw */
+  font-size: 3vh;
+ 
+
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px #000000;
+  
+ text-align: right;
+  
+  padding: 0.5%;
+  text-align: right;
+  vertical-align:top;   
+  
+  
+}
+
+
+.bible-rightslide {
+	width: 33%;            /* Set width to 33% */
+  	float: right;          /* Aligns the div to the right */
+  	box-sizing: border-box; /* Includes padding and border in width */
+
+  
+}
+
+
+
+
+

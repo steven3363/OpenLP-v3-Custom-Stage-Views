@@ -1,0 +1,17 @@
+/*this is where you can configure the fonts*/
+
+body {
+  background-color:transparent;
+  /* Font usage - you can use any font installed in your system or configured in the OpenLP fonts folder. add the fonts 
+  in the font.css files	*/  
+  
+  font-family: kingthings-clarity;
+  
+}
+
+.slideclear {
+
+/*no style*/  
+
+ 
+}

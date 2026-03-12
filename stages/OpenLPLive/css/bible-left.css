@@ -1,0 +1,62 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+To create a simple transparent stage view. 
+ /******************************************************************************
+* OpenLP - Open Source Lyrics
+
+This view is for the bible left-third 
+*/ 
+
+.bible-leftsongtitle {
+	width: 100%;           /* Inner div takes full width of the outer div */
+        box-sizing: border-box; /* Include padding and border in width */
+	font-size:1.1vw; 
+	text-decoration:underline; 
+	padding: 0.5%;
+	
+	
+	
+  	text-decoration:underline; 
+	color: white;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+    	*/
+    	
+ 	
+  	
+}
+
+.bible-leftcurrentslide {
+  
+  width: 100%;           /* Inner div takes full width of the outer div */
+  box-sizing: border-box; /* Include padding and border in width */
+  padding: 0.5%;
+  padding-top: 5%;
+  
+  vertical-align:top;  
+  
+  /*Change the font size here leave the vh/vw as it makes it propotional. Make minor changes*/
+  font-size: 3vh;
+  
+   
+ 
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px #000000;
+  
+  
+
+  
+  
+   
+}
+
+
+.bible-leftslide {
+	width: 33%;            /* Set width to 33% */
+  	float: left;          /* Aligns the div to the left */
+  	box-sizing: border-box; /* Includes padding and border in width */
+
+  
+}
+
+
