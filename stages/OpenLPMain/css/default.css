@@ -1,0 +1,43 @@
+/*this is where you can configure the fonts*/
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	
+body {
+  /*background-color:transparent;*/
+  
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+  
+  
+  
+  /* Font usage - you can use any font installed in your system or configured in the OpenLP fonts folder. add the fonts 
+  in the font.css files	*/  
+  
+  font-family: kingthings-clarity;
+  
+}
+
+#background-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	transform: translate(-50%,-50%);
+}
+
+#bgslide {
+	
+	z-index: 1;
+}
+	
+.slideclear {
+
+/*no style*/  
+
+ 
+}

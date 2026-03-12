@@ -1,0 +1,53 @@
+/******************************************************************************
+* OpenLP - Open Source Lyrics
+
+To create a simple transparent stage view. 
+ 
+
+*/
+
+ .bible-centreslide {
+            position: relative; /* Positioning context */
+            width: 100%; /* Full width */
+            height: 100vh; /* Full viewport height */
+            color: white;
+  	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+            /*background-color: #f0f0f0; /* Background for visibility */
+            /*border: 1px solid #ccc; /* Optional border */
+            overflow: hidden; /* Prevent overflow */
+            
+        
+        }
+
+        .bible-centresongtitle {
+            width: 70%; /* Full width */
+            box-sizing: border-box; /* Include padding in width */
+            padding: 10px; /* Padding */
+            font-size: 1.25vw; /* Responsive font size */
+            position: absolute; /* Absolute positioning */
+            top: 0.5%; /* Position near the top */
+            left: 0.5%; /* Position near the left */
+            text-align: left; /* Align text to the left */
+            text-decoration:underline; 
+            color: white;
+  	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+            /*background-color: rgba(255, 255, 0, 0.5); /* Semi-transparent background */
+        }
+
+        .bible-centrecurrentslide {
+            width: 100%; /* Full width */
+            box-sizing: border-box; /* Include padding in width */
+            margin: 0; /* Reset margins */
+            position: absolute; /* Absolute positioning */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center adjustments */
+            padding: 4%; /* Padding */
+            text-align: center; /* Center text */
+            font-size: 4.25vh; /* Responsive font size */
+            color: white;
+  	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 2px 2px 4px grey;
+            /* background-color: rgba(0, 255, 0, 0.5); /* Semi-transparent background */
+        }
+
+
